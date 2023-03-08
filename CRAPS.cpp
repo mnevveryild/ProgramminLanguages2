@@ -3,7 +3,10 @@
 #include <time.h>
 int main()
 {
-    int puan=0,puanim,i,zar;
+    int puan=0;
+	int puanim;
+	int i,zar;
+	
     srand(time(NULL));
     for(i=0;i<2;i++)
     {
